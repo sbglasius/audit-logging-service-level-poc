@@ -23,3 +23,6 @@ It contains the following components
   
 To demo, there is a `DemoController` calling a `DemoService`
 
+Further ideas
+---
+The `@Audit` annotation could hold information about, how often an event should be recorded, and the `AuditService` could determine if the same user has done the same operation within a certain time limit (read a `Person` object for example)
